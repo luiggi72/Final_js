@@ -24,10 +24,7 @@ const calcularEdad = (fechaNacimiento) => {
 window.addEventListener('load', function () {
     fechaNacimiento.addEventListener('change', function () {
         if (this.value) {
-            anios.innerText = `La edad es: ${calcularEdad(this.value)} años`;
-            meses.innerText = `La edad es: ${calcularEdad(this.value)} meses`;
-            semanas.innerText = `La edad es: ${calcularEdad(this.value)} semanas`;
-            dias.innerText = `La edad es: ${calcularEdad(this.value)} dias`;
+            anios.innerText = `Tu edad es: ${calcularEdad(this.value)} años`;
         }
     });
 });
